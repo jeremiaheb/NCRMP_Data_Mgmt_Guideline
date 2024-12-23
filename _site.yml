@@ -1,22 +1,14 @@
 name: "NCRMP Field Guidelines"
 navbar:
-  title: "Field Guidelines"
+  title: "Data Organization Guidelines"
   left:
-    - text: "Home"
-      href: index.html
-    - text: "Photos"
-      href: photos.html
-    - text: "Datasheets"
-      href: datasheets.html
-    - text: "GPS"
-      href: gps.html
+    - text: "GoogleDrive Upload"
+      href: gdrive.html
     - text: "Crosschecks"
       href: crosschecks.html
 output_dir: "docs"
 output: 
   html_document:
     css: style.css
-    toc: true # table of content true
-    toc_depth: 3  # upto three depths of headings (specified by #, ## and ###)
-    theme: lumen  # many options for theme, this one is my favorite.
-    highlight: tango  # specifies the syntax highlighting style
+    theme: lumen
+    highlight: tango

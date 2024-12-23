@@ -1,20 +1,23 @@
----
-title: "NCRMP Field Data"
----
+::: row
+::: col-md-12
+# [Data organization guidelines]{.underline}
+:::
+:::
+
+<br>
 
 ::: row
 ::: col-md-8
-
 ## Left Column Header
-```{r}
-#chunk
-```
+
+Use the links here or above to see our best practices for data workflows in the field
+
+[Google Drive Uploads](gdrive.html)
+
+[Crosschecks](crosschecks.html)
 :::
 
 ::: col-md-4
-
 ## Right Column Header
-
 :::
-
 :::
