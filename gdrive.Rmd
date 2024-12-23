@@ -1,3 +1,7 @@
+---
+title: "GDrive Uploads"
+---
+
 # Google Drive Uploads {.tabset}
 
 > Photos, scanned datasheets and GPS logs should be uploaded to the appropriate Google Drive folder.
