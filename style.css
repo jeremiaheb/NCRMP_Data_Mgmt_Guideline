@@ -1,0 +1,9 @@
+body .main-container {
+position: relative;
+max-width: 90%;
+}
+
+body .container {
+position: fixed;
+max-width: 90%;
+}

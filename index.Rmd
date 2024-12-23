@@ -2,6 +2,19 @@
 title: "NCRMP Field Data"
 ---
 
-NCRMP field data management guidelines.
+::: row
+::: col-md-8
 
-Click the above links for best practices  
+## Left Column Header
+```{r}
+#chunk
+```
+:::
+
+::: col-md-4
+
+## Right Column Header
+
+:::
+
+:::

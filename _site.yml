@@ -1,6 +1,6 @@
-name: "my-website"
+name: "NCRMP Field Guidelines"
 navbar:
-  title: "My Website"
+  title: "Field Guidelines"
   left:
     - text: "Home"
       href: index.html
@@ -12,4 +12,11 @@ navbar:
       href: gps.html
     - text: "Crosschecks"
       href: crosschecks.html
-output_dir: "docs/"
+output_dir: "docs"
+output: 
+  html_document:
+    css: style.css
+    toc: true # table of content true
+    toc_depth: 3  # upto three depths of headings (specified by #, ## and ###)
+    theme: lumen  # many options for theme, this one is my favorite.
+    highlight: tango  # specifies the syntax highlighting style
