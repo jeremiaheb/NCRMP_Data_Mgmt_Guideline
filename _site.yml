@@ -2,8 +2,6 @@ name: "NCRMP Field Guidelines"
 navbar:
   title: "Data Organization Guidelines"
   left:
-    - text: "GoogleDrive Upload"
-      href: gdrive.html
     - text: "Crosschecks"
       href: crosschecks.html
 output_dir: "docs"

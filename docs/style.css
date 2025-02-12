@@ -11,3 +11,51 @@ max-width: 90%;
 .title {
   display: none;
 }
+
+/* Style for directory names */
+.dir {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Indentation for nested directories */
+.nested {
+    margin-left: 40px;
+}
+
+.nested-2 {
+    margin-left: 80px;
+}
+
+.nested-3 {
+    margin-left: 100px;
+}
+
+.nested-4 {
+    margin-left: 120px;
+}
+
+/* Additional styling for better readability */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+code {
+    background-color: #f4f4f4;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.nav-tabs > li> a {
+    border-style: none !important;
+    border-width: 0px !important;
+}
+

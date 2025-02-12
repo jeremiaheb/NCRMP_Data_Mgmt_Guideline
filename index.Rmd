@@ -2,25 +2,109 @@
 title: "Home"
 ---
 
-::: row
-::: col-md-12
-# [Data organization guidelines]{.underline}
+> This guide will help us maintain a standardized structure and naming convention within our shared Google Drive directory.
+
+> Follow the **Florida Keys** example below for example.
+
+------------------------------------------------------------------------
+
+## 📂 [NCRMP - All Participant]{.dir} {.tabset}
+
+This is the top-level directory given to all partners with each region having its own directory
+
+###  {.unnumbered}
+
+### 📂 [Florida Keys]{.dir} {.tabset}
+
+::::::::: nested
+This directory contains data specific to the Florida Keys.  Each 'Boatlog Manager' or Project will have its own directory
+
+####  {.unnumbered}
+
+#### 📂 [NOAA SEFSC]{.dir} {.tabset}
+
+:::::::: nested
+This directory contains data collected by NOAA SEFSC.
+
+#####  {.unnumbered}
+
+##### 📂 [GPS Logs]{.dir}
+
+::: nested-2
+-   **Purpose**: Stores GPS logs from fieldwork.
 :::
+
+##### 📂 [Scanned Datasheets]{.dir} {.tabset}
+
+::::: nested-4
+This directory contains scanned paper datasheets.
+
+######  {.unnumbered}
+
+###### 📂 [Boatlogs]{.dir}
+
+::: nested-4
+-   **Purpose**: Stores boat log sheets.
+
+``` bash
+📂 Boatlogs/
+    ├── SEFSC_Boatlogs_1.pdf
+    ├── SEFSC_Boatlogs_2.pdf
+```
 :::
 
-<br>
+###### 📂 [Diver Scans]{.dir}
 
-::: row
-::: col-md-8
+::: nested-3
+-   **Purpose**: Stores diver data sheets.
 
-Use the links here or above to see our best practices for data workflows in the field
-
-[Google Drive Uploads](gdrive.html)
-
-[Crosschecks](crosschecks.html)
+``` bash
+📂 Diver Scans/
+    ├── Blondeau_fish.pdf
+    ├── Blondeau_LPI.pdf
+    ├── Blondeau_demo.pdf
+```
 :::
+:::::
 
-::: col-md-4
+##### 📂 [Site Photos]{.dir}
 
+::: nested-2
+-   **Purpose**: Stores habitat from survey sites.
+
+``` bash
+📂 Site Photos/
+    ├── 📂 1001_fish
+    ├── 📂 1001_benthic
+    ├── 📂 1245_fish
+    ├── 📂 1350_fish
+```
 :::
+::::::::
+:::::::::
+
+#### 📂 [FWC Marathon]{.dir} {.tabset}
+
+::::: nested
+> This directory contains data collected by FWC Marathon group in the Florida Keys.
+
+> Please follow the NOAA SEFSC for full example
+
+### 📂 [Dry Tortugas]{.dir} {.tabset}
+
+:::: nested
+> Directory for all Dry Tortugas data. 
+
+> Please follow the Florida Keys for full example
+
+### 📂 [Southeast Florida]{.dir} {.tabset}
+
+::: nested
+> Directory for all Southeast Florida data. 
+
+> Please follow the Florida Keys for full example
+
+------------------------------------------------------------------------
 :::
+::::
+:::::
