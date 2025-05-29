@@ -11,7 +11,7 @@
 
 
 
-<title>Crosschecking</title>
+<title>Dashboard Crosschecks</title>
 
 <script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -246,12 +246,41 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Crosschecking</h1>
+<h1 class="title toc-ignore">Dashboard Crosschecks</h1>
 
 </div>
 
 
-<p>Stuff here</p>
+<p>If you are signed into the data entry system as “Manager” you will
+have access to the “Manager Dashboard” button</p>
+<p>The dashboard will show the number of entries each diver should have
+(boatlog entries) and the number of samples (fish, LPI or Demo) each
+diver has entered.</p>
+<p>Clicking on the Crosscheck Boatlog vs. Samples button will show 2
+tables.</p>
+<ol style="list-style-type: decimal">
+<li><p>List of samples by diver that have a boatlog entry but
+<strong>not</strong> a corresponding diver entered sample</p></li>
+<li><p>List of samples entered by diver that do <strong>not</strong>
+have a corresponding boatlog entry</p></li>
+</ol>
+<hr />
+<div id="common-issues" class="section level2">
+<h2>Common Issues</h2>
+<ol style="list-style-type: decimal">
+<li><p>Boatlogs have a been entered but divers have yet to enter their
+sample</p>
+<ul>
+<li><strong>Fix:</strong> Diver successfully enters sample</li>
+</ul></li>
+<li><p>Date or Field ID is incorrect in either boatlog or diver
+entry</p>
+<ul>
+<li><strong>Fix:</strong> Edit either the boatlog or diver entry.
+Editing one or the other typically fixes the issue on both tables</li>
+</ul></li>
+</ol>
+</div>
 
 
 

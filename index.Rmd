@@ -4,7 +4,7 @@ title: "Home"
 
 > This guide will help us maintain a standardized structure and naming convention within our shared Google Drive directory.
 
-> Follow the **Florida Keys** example below for example.
+> Follow the **Florida Keys** below for full example.
 
 ------------------------------------------------------------------------
 
